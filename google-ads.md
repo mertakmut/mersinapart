@@ -39,25 +39,25 @@ Ekran görüntüsünde belirttiğiniz formatta, fiyat ve müşteri potansiyeli (
 - **Site bağlantısı metni (25):** Bahçe Odası (11)
 - **Açıklama satırı 1 (35):** 2 kişilik uygun fiyatlı oda. (28)
 - **Açıklama satırı 2 (35):** Bahçe manzaralı tatil keyfi. (27)
-- **Nihai URL:** `https://mersinapart.vercel.app/odalar/bahce-odasi/`
+- **Nihai URL:** `https://mersinotelfiyati.tr/odalar/bahce-odasi/`
 
 **Site Bağlantısı 2: Aile Suiti**
 - **Site bağlantısı metni (25):** Geniş Aile Suiti (16)
 - **Açıklama satırı 1 (35):** Aileler için ekonomik konaklama. (31)
 - **Açıklama satırı 2 (35):** Ev konforunda geniş yaşam alanı. (31)
-- **Nihai URL:** `https://mersinapart.vercel.app/odalar/aile-suiti/`
+- **Nihai URL:** `https://mersinotelfiyati.tr/odalar/aile-suiti/`
 
 **Site Bağlantısı 3: Fiyatlar & İndirimler**
 - **Site bağlantısı metni (25):** Güncel Fiyatlar (15)
 - **Açıklama satırı 1 (35):** Her bütçeye uygun apart fiyatları. (34)
 - **Açıklama satırı 2 (35):** Erken rezervasyon fırsatını yakala (34)
-- **Nihai URL:** `https://mersinapart.vercel.app/fiyatlar/`
+- **Nihai URL:** `https://mersinotelfiyati.tr/fiyatlar/`
 
 **Site Bağlantısı 4: İletişim / Rezervasyon**
 - **Site bağlantısı metni (25):** Hemen Rezervasyon (17)
 - **Açıklama satırı 1 (35):** Müsaitlik ve bilgi için arayın. (31)
 - **Açıklama satırı 2 (35):** WhatsApp'tan hızlıca fiyat alın. (32)
-- **Nihai URL:** `https://mersinapart.vercel.app/iletisim/`
+- **Nihai URL:** `https://mersinotelfiyati.tr/iletisim/`
 
 ---
 
