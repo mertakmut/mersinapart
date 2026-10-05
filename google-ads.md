@@ -39,25 +39,25 @@ Ekran görüntüsünde belirttiğiniz formatta, fiyat ve müşteri potansiyeli (
 - **Site bağlantısı metni (25):** Bahçe Odası (11)
 - **Açıklama satırı 1 (35):** 2 kişilik uygun fiyatlı oda. (28)
 - **Açıklama satırı 2 (35):** Bahçe manzaralı tatil keyfi. (27)
-- **Nihai URL:** `https://mersinapartotel.xyz/odalar/bahce-odasi/`
+- **Nihai URL:** `https://mersinapart.vercel.app/odalar/bahce-odasi/`
 
 **Site Bağlantısı 2: Aile Suiti**
 - **Site bağlantısı metni (25):** Geniş Aile Suiti (16)
 - **Açıklama satırı 1 (35):** Aileler için ekonomik konaklama. (31)
 - **Açıklama satırı 2 (35):** Ev konforunda geniş yaşam alanı. (31)
-- **Nihai URL:** `https://mersinapartotel.xyz/odalar/aile-suiti/`
+- **Nihai URL:** `https://mersinapart.vercel.app/odalar/aile-suiti/`
 
 **Site Bağlantısı 3: Fiyatlar & İndirimler**
 - **Site bağlantısı metni (25):** Güncel Fiyatlar (15)
 - **Açıklama satırı 1 (35):** Her bütçeye uygun apart fiyatları. (34)
 - **Açıklama satırı 2 (35):** Erken rezervasyon fırsatını yakala (34)
-- **Nihai URL:** `https://mersinapartotel.xyz/fiyatlar/`
+- **Nihai URL:** `https://mersinapart.vercel.app/fiyatlar/`
 
 **Site Bağlantısı 4: İletişim / Rezervasyon**
 - **Site bağlantısı metni (25):** Hemen Rezervasyon (17)
 - **Açıklama satırı 1 (35):** Müsaitlik ve bilgi için arayın. (31)
 - **Açıklama satırı 2 (35):** WhatsApp'tan hızlıca fiyat alın. (32)
-- **Nihai URL:** `https://mersinapartotel.xyz/iletisim/`
+- **Nihai URL:** `https://mersinapart.vercel.app/iletisim/`
 
 ---
 
@@ -96,3 +96,35 @@ Hedef kitleyi büyütmek için alakalı olabilecek tüm aramalarda çıkar (Daha
 - mersin günlük kiralık daireler
 - mersin akdeniz günlük kiralık
 - mersin aile konaklama
+
+---
+
+## 4. Açıklama Metni Uzantıları (Callout Extensions)
+Reklamın altında ekstra olarak gözüken ve tesisinizin avantajlarını öne çıkaran kısa özellikler (Maks. 25 Karakter):
+- Merkezde Mükemmel Konum
+- Ücretsiz Hızlı Wi-Fi
+- Uygun Fiyat Garantisi
+- 7/24 Kesintisiz Sıcak Su
+- Ailelere Özel Geniş Oda
+- Temiz ve Hijyenik Ortam
+- Klima İklimlendirme
+- Hızlı ve Kolay Check-in
+
+---
+
+## 5. Ek Açıklamalı Snippet'lar (Structured Snippet Extensions)
+Kullanıcıların ne tür odalar veya olanaklar sunduğunuzu bir bakışta görmesini sağlayan kategori bazlı bilgiler (Öğe başı maks. 25 Karakter):
+
+**Kategori: Oda Türleri**
+- Bahçe Odası
+- Şehir Suiti
+- Aile Suiti
+- Ekonomik Oda Seçeneği
+- Geniş Apart Daireler
+
+**Kategori: Olanaklar (Amenities)**
+- Hızlı ve Kesintisiz Wi-Fi
+- LCD Akıllı TV
+- Temiz Havlu ve Nevresim
+- Oturma ve Çalışma Alanı
+- 24 Saat Sıcak Su
