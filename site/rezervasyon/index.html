@@ -47,8 +47,50 @@
   <main class="content-page" id="main">
     <nav class="breadcrumbs" aria-label="İçerik yolu"><a href="/">Ana sayfa</a> <span aria-hidden="true">/</span><span aria-current="page">Rezervasyon</span></nav>
     <header class="page-heading"><p class="eyebrow">TALEP SÜRECİ</p><h1>Rezervasyon için nasıl ilerlenir?</h1><p class="page-intro">Bu web sitesi rezervasyonu otomatik onaylamaz. Oda ve tarihinizi işletmeye iletip güncel müsaitlik ile toplam fiyatı doğrudan teyit edin.</p></header>
-    <div class="content-body"><section class="page-section" aria-labelledby="reservation-steps-title"><h2 id="reservation-steps-title">Üç basit adım</h2><ol class="reservation-steps"><li><span>01</span><div><h3>Oda ve tarihinizi belirleyin</h3><p>Bahçe Odası, Şehir Suiti veya Aile Suiti arasından seçin; giriş/çıkış tarihini ve kişi sayısını hazırlayın.</p><a href="/odalar/">Oda seçeneklerini karşılaştırın.</a></div></li><li><span>02</span><div><h3>İşletmeye ulaşın</h3><p>Telefonla arayın veya WhatsApp’ta tarih, kişi sayısı ve oda tercihini yazın. Başlangıç fiyatı güncel teklif anlamına gelmez.</p><a href="/iletisim/">Telefon ve WhatsApp bağlantılarını açın.</a></div></li><li><span>03</span><div><h3>Koşulları ve teyidi alın</h3><p>Müsaitliği, o gün geçerli toplam ücreti, giriş/çıkış ayrıntılarını ve rezervasyon koşullarını işletmeden netleştirin. Onay ancak işletmeden gelen teyitle oluşur.</p></div></li></ol></section>
-      <section class="page-section reservation-note" aria-labelledby="reservation-limits-title"><h2 id="reservation-limits-title">Bu web sayfası ne yapmaz?</h2><p>Site müsaitlik takvimi tutmaz, ödeme veya kart bilgisi almaz, tek başına rezervasyon oluşturmaz. WhatsApp bağlantısı yalnızca sizin onaylayıp gönderebileceğiniz bir mesaj taslağı açar.</p><a class="contact-phone" href="tel:+905332661288">+90 533 266 12 88</a> <a class="contact-whatsapp" href="https://wa.me/905332661288?text=Merhaba%2C%20Mersin%20Apart%20Otel%20i%C3%A7in%20konaklama%20ve%20g%C3%BCncel%20m%C3%BCsaitlik%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp</a></section></div>
+    <div class="content-body">
+      <section class="booking-section section-wrap" aria-labelledby="booking-title" style="background-color: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 2rem;">
+        <p style="color: #4a5568; margin-bottom: 1.5rem;">Tarihlerinizi seçin, WhatsApp üzerinden anında fiyat ve müsaitlik bilgisi alın.</p>
+        
+        <form id="reservation-form" class="booking-panel" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+          <div class="form-group" style="display: flex; flex-direction: column;">
+            <label for="guest-name" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Adınız Soyadınız *</label>
+            <input type="text" id="guest-name" required style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem;">
+          </div>
+          <div class="form-group" style="display: flex; flex-direction: column;">
+            <label for="guest-phone" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Telefon Numarası *</label>
+            <input type="tel" id="guest-phone" required style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem;" placeholder="05XX XXX XX XX">
+          </div>
+          <div class="form-group" style="display: flex; flex-direction: column;">
+            <label for="check-in" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Giriş Tarihi *</label>
+            <input type="date" id="check-in" required style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem;">
+          </div>
+          <div class="form-group" style="display: flex; flex-direction: column;">
+            <label for="check-out" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Çıkış Tarihi *</label>
+            <input type="date" id="check-out" required style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem;">
+          </div>
+          <div class="form-group" style="display: flex; flex-direction: column;">
+            <label for="guest-count" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Kişi Sayısı *</label>
+            <select id="guest-count" required style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem; background-color: #fff;">
+              <option value="1">1 Kişi</option>
+              <option value="2" selected>2 Kişi</option>
+              <option value="3">3 Kişi</option>
+              <option value="4">4 Kişi</option>
+              <option value="5">5 Kişi</option>
+            </select>
+          </div>
+          <div class="form-group" style="display: flex; flex-direction: column; grid-column: 1 / -1;">
+            <label for="guest-note" style="font-weight: 500; font-size: 0.875rem; margin-bottom: 0.5rem; color: #4a5568;">Ek Not (İsteğe bağlı)</label>
+            <textarea id="guest-note" rows="2" style="padding: 0.75rem; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 1rem; resize: vertical;"></textarea>
+          </div>
+          <div class="form-actions" style="grid-column: 1 / -1; display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+            <button type="button" id="request-send" class="button button-primary" style="width: 100%; max-width: 300px; padding: 1rem; font-size: 1rem; background-color: #25D366; border-color: #25D366;">WhatsApp ile Gönder</button>
+            <p id="request-status" class="form-status" style="font-size: 0.875rem; color: #718096; margin: 0;"></p>
+          </div>
+        </form>
+      </section>
+      
+      <section class="page-section reservation-note" aria-labelledby="reservation-limits-title"><h2 id="reservation-limits-title">Bu web sayfası ne yapmaz?</h2><p>Site müsaitlik takvimi tutmaz, ödeme veya kart bilgisi almaz, tek başına rezervasyon oluşturmaz. Formu doldurduğunuzda WhatsApp uygulamanız açılır ve bilgilerinizi işletmeye mesaj olarak göndermeniz sağlanır.</p></section>
+    </div>
     <section class="page-cta" aria-labelledby="page-cta-title"><p class="eyebrow eyebrow-light">MERSİN APART OTEL · CAMİ ŞERİF</p><h2 id="page-cta-title">Güncel bilgiyi doğrudan alın.</h2><p>Oda tercihiniz, kişi sayısı ve tarih için işletmeye ulaşın.</p><div class="page-cta-actions"><a class="button button-light" href="tel:+905332661288">Ara</a><a class="button button-cream" href="https://wa.me/905332661288?text=Merhaba%2C%20Mersin%20Apart%20Otel%20i%C3%A7in%20konaklama%20ve%20g%C3%BCncel%20m%C3%BCsaitlik%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp</a></div></section>
   </main>
   <!-- PAGE_DIRECTORY_BEGIN -->
