@@ -1,8 +1,8 @@
-# Mersin Apart Otel — uygulama planı
+# Mersin Merkez Otel — uygulama planı
 
 ## Amaç ve kapsam
 
-Mersin Apart Otel için Türkçe, mobil öncelikli ve birbirine bağlı 12 ayrı HTML rotası (ana sayfa, 10 içerik sayfası ve yasal sayfa) hazırlamak. Doğru işletme telefonu kullanıcı tarafından `0533 266 12 88` olarak teyit edildi; site içinde `+90 533 266 12 88`, arama için `tel:+905332661288`, WhatsApp için `wa.me/905332661288` kullanılır. Kullanıcıya ait mevcut canlı site gibi görünen `mersinapartotel.net` ayrı kalır; bu projeden değiştirilmez.
+Mersin Merkez Otel için Türkçe, mobil öncelikli ve birbirine bağlı 12 ayrı HTML rotası (ana sayfa, 10 içerik sayfası ve yasal sayfa) hazırlamak. Doğru işletme telefonu kullanıcı tarafından `0533 266 12 88` olarak teyit edildi; site içinde `+90 533 266 12 88`, arama için `tel:+905332661288`, WhatsApp için `wa.me/905332661288` kullanılır. Kullanıcıya ait mevcut canlı site gibi görünen `mersinapartotel.net` ayrı kalır; bu projeden değiştirilmez.
 
 Kullanıcı mevcut `mersinapartotel.net` içerik ve fotoğraflarını oda verileri için kullanma izni verdi: üç oda tipi, kapasite, alan, manzara, başlangıç fiyatları ve olanaklar. Başlangıç fiyatlarının tarihe/oda tipine göre değişebileceği açıklanır; bağımsız doğrulaması olmayan puan ve yorumlar eklenmez. Talep alanları tarayıcıda işlenir ve kullanıcı tıklarsa WhatsApp mesaj taslağı açılır; site sunucusuna form verisi gönderilmez.
 
@@ -29,8 +29,8 @@ Kullanıcı mevcut `mersinapartotel.net` içerik ve fotoğraflarını oda verile
 - **Animasyon:** kısa hover/focus geri bildirimi; `prefers-reduced-motion` desteği; animasyon olmadan da tüm işlevler.
 - **Tipografi:** Georgia/Palatino sistem serif başlık; sistem sans metin; harici font zorunlu değil.
 - **Marka özü:** Mersin Cami Şerif’te apart otel arayanlara oda/fiyat bilgisi ve doğrudan teyit yolu sağlayan şehir içi işletme. Kişilik: net, sıcak, güvenilir.
-- **Marka sesi:** konuma ve teyit edilebilir bilgiye dayalı. Örnekler: “Mersin Apart Otel — Cami Şerif, Akdeniz.” / “Tarih ve ücret için doğrudan arayın; güncel bilgiyi birlikte netleştirelim.”
-- **Logo:** kullanıcının dairesel “Mersin Apart Otel” görseli header, footer ve favicon’da; web için optimize edilmiş türevleri kullanılır.
+- **Marka sesi:** konuma ve teyit edilebilir bilgiye dayalı. Örnekler: “Mersin Merkez Otel — Cami Şerif, Akdeniz.” / “Tarih ve ücret için doğrudan arayın; güncel bilgiyi birlikte netleştirelim.”
+- **Logo:** kullanıcının dairesel “Mersin Merkez Otel” görseli header, footer ve favicon’da; web için optimize edilmiş türevleri kullanılır.
 - **İmza rengi:** derin körfez teal `#123B42`, kiremit `#A54831`.
 
 ## Proje yapısı
@@ -49,7 +49,7 @@ Kullanıcı mevcut `mersinapartotel.net` içerik ve fotoğraflarını oda verile
 
 ## Kaynaklar ve sınırlar
 
-- İşletme bilgisi kullanıcıdan: “Mersin Apart Otel”, “Cami Şerif, Mücahitler Cd., 33010 Akdeniz/Mersin”, doğru telefon `+90 533 266 12 88`.
+- İşletme bilgisi kullanıcıdan: “Mersin Merkez Otel”, “Cami Şerif, Mücahitler Cd., 33010 Akdeniz/Mersin”, doğru telefon `+90 533 266 12 88`.
 - Kullanıcı `https://mersinapartotel.net/` oda içeriği ve fotoğraflarını kullanma izni verdi. Bu mevcut alan adı olduğu gibi kalır; üretim hedefi değildir.
 - Google Ads bağlayıcısı oturumda kapalıdır; kullanıcı günlük bütçesi ve hesap yetkisi eksiktir. Kampanya hesabı/bütçesi hazır olana kadar canlı yayın ve harcama yapılmaz.
 

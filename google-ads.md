@@ -1,11 +1,11 @@
-# Mersin Apart Otel - Google Ads Stratejisi
+# Mersin Merkez Otel - Google Ads Stratejisi
 
 ## 1. Google Ads Arama Ağı Reklam Metinleri (Responsive Search Ads)
 
 ### Başlıklar (Maks. 30 Karakter) - 15 Adet
 Fiyat, konum ve dönüşüm (müşteri potansiyeli) odaklı başlıklar:
 
-1. Mersin Apart Otel (17)
+1. Mersin Merkez Otel (17)
 2. Akdeniz'de Uygun Konaklama (26)
 3. Mersin Günlük Kiralık (21)
 4. Ekonomik Mersin Otelleri (24)
@@ -19,7 +19,7 @@ Fiyat, konum ve dönüşüm (müşteri potansiyeli) odaklı başlıklar:
 12. En İyi Fiyat Garantisi (22)
 13. Mersin Lüks & Uygun Otel (24)
 14. Ev Konforunda Konaklama (23)
-15. Mersin Apart İletişim (21)
+15. Mersin Merkez Otel İletişim (21)
 
 ### Açıklamalar (Maks. 90 Karakter) - 4 Adet
 Müşteriyi eyleme geçirmeye ve avantajları vurgulamaya yönelik açıklamalar:
@@ -67,7 +67,7 @@ Müşteri çekme potansiyeli en yüksek olan (niyet barındıran) anahtar kelime
 
 ### 🟢 Tam Eşleşme (Exact Match)
 Kullanıcının tam olarak bu kelimeleri arattığında çıkar. En yüksek dönüşüm ve müşteri niyetidir.
-- [mersin apart otel]
+- [Mersin Merkez Otel]
 - [mersin günlük kiralık ev]
 - [mersin apart]
 - [mersin otel fiyatları]
@@ -78,7 +78,7 @@ Kullanıcının tam olarak bu kelimeleri arattığında çıkar. En yüksek dön
 
 ### 🟡 Sıralı Eşleşme (Phrase Match)
 Arama teriminin içinde bu kelime öbeği geçiyorsa çıkar.
-- "mersin apart otel"
+- "Mersin Merkez Otel"
 - "mersin günlük kiralık"
 - "mersin uygun oteller"
 - "mersin apart fiyatları"

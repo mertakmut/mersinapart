@@ -1,8 +1,8 @@
 # Uygulama teslim ölçütleri
 
 ## 1. Reklam ve yerel arama niyetlerine uygun ana sayfa
-- [x] Türkçe ana sayfada işletme adı **Mersin Apart Otel**, adres **Cami Şerif, Mücahitler Cd., 33010 Akdeniz/Mersin** ve kullanıcı tarafından doğrulanan telefon **+90 533 266 12 88** görünür; Ara/WhatsApp bağlantıları doğru hedefe gider.
-- [x] Başlık ve içerik “Mersin apart otel”, “Cami Şerif/Akdeniz konaklama”, oda/fiyat araştırması ve doğrudan bilgi/müsaitlik iletişimi niyetlerine karşılık verir; oda adı, kapasite, alan, manzara, başlangıç fiyatı ve olanaklar kaynak sitede yayımlı içerikle tutarlıdır.
+- [x] Türkçe ana sayfada işletme adı **Mersin Merkez Otel**, adres **Cami Şerif, Mücahitler Cd., 33010 Akdeniz/Mersin** ve kullanıcı tarafından doğrulanan telefon **+90 533 266 12 88** görünür; Ara/WhatsApp bağlantıları doğru hedefe gider.
+- [x] Başlık ve içerik “Mersin Merkez Otel”, “Cami Şerif/Akdeniz konaklama”, oda/fiyat araştırması ve doğrudan bilgi/müsaitlik iletişimi niyetlerine karşılık verir; oda adı, kapasite, alan, manzara, başlangıç fiyatı ve olanaklar kaynak sitede yayımlı içerikle tutarlıdır.
 - [x] Üç oda seçeneği gerçek fotoğraf, temel özellik ve kapasiteyle sunulur: Bahçe Odası (2 kişi, 28 m², bahçe manzarası; ₺2.100’den/gece), Şehir Suiti (3 kişi, 42 m², şehir manzarası; ₺2.900’den/gece), Aile Suiti (4 kişi, 52 m², geniş salon; ₺3.400’den/gece). Başlangıç fiyatlarının tarih ve oda tipine göre değişebileceği belirtilir.
 - [x] Eski sitedeki klima, Wi‑Fi, kahvaltı seçeneği, günlük temizlik, 24 saat resepsiyon ve 12:30 giriş / 11:30 çıkış bilgileri yer alır; güncel teyit uyarısı görünür.
 - [x] Cami Şerif yakın çevre içeriği, eski sitede yayımlanan kafe/restoran, Atatürk Parkı ve Mersin Marina isimleri ile yaklaşık yürüme sürelerini verir; sürelerin yaklaşık olduğu açıklanır.

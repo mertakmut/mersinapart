@@ -37,7 +37,7 @@ if (sendButton && requestStatus) {
     }
 
     const message = [
-      'Merhaba Mersin Apart Otel, konaklama bilgisi almak istiyorum.',
+      'Merhaba Mersin Merkez Otel, konaklama bilgisi almak istiyorum.',
       `Ad: ${fields.name.value.trim()}`,
       `Telefon: ${fields.phone.value.trim()}`,
       `Giriş: ${fields.checkin.value}`,
