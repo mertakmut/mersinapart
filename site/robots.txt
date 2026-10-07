@@ -17,4 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://mersinotelfiyati.tr/sitemap.xml
+Sitemap: https://mersinmerkezotel.com/sitemap.xml
