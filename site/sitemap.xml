@@ -6,6 +6,41 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-otelleri/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-apart-otel/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-pansiyon/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-ucuz-otel/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-otel-musaitlik/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkez-gunluk-otel/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mersinmerkezotel.com/mersin-merkeze-yakin-oteller/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://mersinmerkezotel.com/odalar/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
