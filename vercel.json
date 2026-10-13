@@ -1,4 +1,13 @@
 {
   "version": 2,
-  "outputDirectory": "site"
+  "outputDirectory": "site",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
 }

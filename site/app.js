@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '905332661288';
+const WHATSAPP_NUMBER = '905313152490';
 
 const sendButton = document.querySelector('#request-send');
 const requestStatus = document.querySelector('#request-status');
