@@ -17,4 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://mersinmerkezotel.com/sitemap.xml
+Sitemap: https://www.mersinmerkezotel.com/sitemap.xml
