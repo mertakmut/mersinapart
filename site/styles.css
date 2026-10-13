@@ -769,3 +769,142 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     justify-self: start;
   }
 }
+
+/* Hotel Photo Showcase / Gallery */
+.gallery-section {
+  padding-block: clamp(50px, 7vw, 90px);
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: clamp(14px, 2vw, 22px);
+  margin-top: clamp(20px, 3vw, 36px);
+}
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--cream);
+  box-shadow: 0 14px 38px rgba(18, 59, 66, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 50px rgba(18, 59, 66, 0.14);
+}
+.gallery-card picture,
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.gallery-card:hover img {
+  transform: scale(1.03);
+}
+.gallery-card-1 {
+  grid-column: span 7;
+  min-height: 380px;
+}
+.gallery-card-2 {
+  grid-column: span 5;
+  min-height: 380px;
+}
+.gallery-card-3 {
+  grid-column: span 4;
+  min-height: 320px;
+}
+.gallery-card-4 {
+  grid-column: span 4;
+  min-height: 320px;
+}
+.gallery-card-5 {
+  grid-column: span 4;
+  min-height: 320px;
+}
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px 20px 16px;
+  background: linear-gradient(to top, rgba(14, 46, 52, 0.92) 0%, rgba(14, 46, 52, 0.6) 60%, transparent 100%);
+  color: #fff;
+  z-index: 2;
+}
+.gallery-caption strong {
+  display: block;
+  font-size: 1.05rem;
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+  margin-bottom: 2px;
+}
+.gallery-caption span {
+  font-size: 0.82rem;
+  opacity: 0.9;
+}
+.gallery-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 3;
+  padding: 4px 12px;
+  background: rgba(18, 59, 66, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  .gallery-card-1, .gallery-card-2 {
+    grid-column: span 12;
+    min-height: 280px;
+  }
+  .gallery-card-3, .gallery-card-4, .gallery-card-5 {
+    grid-column: span 12;
+    min-height: 260px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .gallery-card-3, .gallery-card-4 {
+    grid-column: span 6;
+  }
+  .gallery-card-5 {
+    grid-column: span 12;
+  }
+}
+
+/* Room sub-gallery strips */
+.room-subgallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.room-subgallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: var(--cream);
+  box-shadow: 0 10px 30px rgba(18, 59, 66, 0.06);
+}
+.room-subgallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+.room-subgallery figcaption {
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  background: var(--cream);
+}
+
