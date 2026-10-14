@@ -1,5 +1,42 @@
 const WHATSAPP_NUMBER = '905313152490';
 
+// Global Event Tracking Helper for GA4 / Google Ads (gtag)
+function trackEvent(eventName, eventParams = {}) {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', eventName, eventParams);
+  }
+}
+
+// Bind click tracking for calls, WhatsApp, and directions
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      trackEvent('click_to_call', {
+        event_category: 'engagement',
+        event_label: link.getAttribute('href'),
+      });
+    });
+  });
+
+  document.querySelectorAll('a[href*="wa.me"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      trackEvent('click_whatsapp', {
+        event_category: 'engagement',
+        event_label: 'whatsapp_link',
+      });
+    });
+  });
+
+  document.querySelectorAll('a[href*="share.google"], a[href*="maps.google"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      trackEvent('click_directions', {
+        event_category: 'engagement',
+        event_label: link.getAttribute('href'),
+      });
+    });
+  });
+});
+
 const sendButton = document.querySelector('#request-send');
 const requestStatus = document.querySelector('#request-status');
 
@@ -35,6 +72,15 @@ if (sendButton && requestStatus) {
       fields.phone.setCustomValidity('');
       return;
     }
+
+    trackEvent('contact_form_submit', {
+      event_category: 'lead',
+      guest_count: fields.guests.value,
+    });
+    trackEvent('click_whatsapp', {
+      event_category: 'lead',
+      event_label: 'form_whatsapp_submit',
+    });
 
     const message = [
       'Merhaba Mersin Merkez Otel, konaklama bilgisi almak istiyorum.',
